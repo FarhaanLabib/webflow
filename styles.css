@@ -132,3 +132,58 @@ ul li{
   margin-top: 0px;
 
 }
+
+.connect-container{
+  display: flex;
+  gap: 115px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 116px;
+  height: 632px;
+  max-width: 1140px;
+  
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.form input{
+  width: 497px;
+  height: 70px;
+  border: 2px solid rgba(0, 0, 0, 0.098);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.txt{
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  color: black;
+}
+
+.form textarea{
+  width: 497px;
+  height: 135px;
+  border: 2px solid rgba(0, 0, 0, 0.098);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top:10px;
+}
+
+.form input,textarea::placeholder{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+label{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+button:hover{
+  opacity: .5;
+}
